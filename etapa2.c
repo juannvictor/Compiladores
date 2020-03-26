@@ -154,7 +154,7 @@ int scanner(char string[], int *index){
 		}
 	}
 
-q3: *index = *index + 1;
+	q3: *index = *index + 1;
 	if (*index >= strlen(string)) return 0;
 	if (
 			(string[*index] >= ' ' && 
@@ -346,98 +346,7 @@ q3: *index = *index + 1;
 		case ' ': goto q86;
 		default: return 0;
 	}
-			
-	q57: *index = *index + 1;
-	if (*index >= strlen(string)) return 0;
-	switch (string[*index]){
-		case 'o': goto q58;
-		default: return 0;
-	}
-			
-	q58: *index = *index + 1;
-	if (*index >= strlen(string)) return 0;
-	switch (string[*index]){
-		case 'o': goto q59;
-		default: return 0;
-	}
-			
-	q59: *index = *index + 1;
-	if (*index >= strlen(string)) return 0;
-	switch (string[*index]){
-		case 'l': goto q60;
-		default: return 0;
-	}
-			
-	q60: *index = *index + 1;
-	if (*index >= strlen(string)) return 0;
-	switch (string[*index]){
-		case ' ': goto q61;
-		default: return 0;
-	}
-		
-	q46: *index = *index + 1;
-	if (*index >= strlen(string)) return 0;
-	switch (string[*index]){
-		case 'a': goto q47;
-		default: return 0;
-	}
-			
-	q47: *index = *index + 1;
-	if (*index >= strlen(string)) return 0;
-	switch (string[*index]){
-		case 'l': goto q48;
-		default: return 0;
-	}
-			
-	q48: *index = *index + 1;
-	if (*index >= strlen(string)) return 0;
-	switch (string[*index]){
-		case 's': goto q49;
-		default: return 0;
-	}
-			
-	q49: *index = *index + 1;
-	if (*index >= strlen(string)) return 0;
-	switch (string[*index]){
-		case 'e': goto q50;
-		default: return 0;
-	}
-		
-	q50: *index = *index + 1;
-	if (*index >= strlen(string)) return 0;
-	switch (string[*index]){
-		case ' ': goto q51;
-		default: return 0;
-	}
-		
-	q52: *index = *index + 1;
-	if (*index >= strlen(string)) return 0;
-	switch (string[*index]){
-		case 'r': goto q53;
-		default: return 0;
-	}
-		
-	q53: *index = *index + 1;
-	if (*index >= strlen(string)) return 0;
-	switch (string[*index]){
-		case 'u': goto q54;
-		default: return 0;
-	}
-			
-	q54: *index = *index + 1;
-	if (*index >= strlen(string)) return 0;
-	switch (string[*index]){
-		case 'e': goto q55;
-		default: return 0;
-	}
-			
-	q55: *index = *index + 1;
-	if (*index >= strlen(string)) return 0;
-	switch (string[*index]){
-		case ' ': goto q56;
-		default: return 0;
-	}
-			
+
 	q80: *index = *index + 1;
 	if (*index >= strlen(string)) return 0;
 	switch (string[*index]){
@@ -494,82 +403,10 @@ q3: *index = *index + 1;
 		default: return 0;
 	}
 		
-	q101: *index = *index + 1;
-	if (*index >= strlen(string)) return 0;
-	switch (string[*index]){
-		case 'f': goto q63;
-		case 'n': goto q24;
-		default: return 0;
-	}
-			
-	q63: *index = *index + 1;
-	if (*index >= strlen(string)) return 0;
-	switch (string[*index]){
-		case ' ': goto q64;
-		default: return 0;
-	}
-			
-	q24: *index = *index + 1;
-	if (*index >= strlen(string)) return 0;
-	switch (string[*index]){
-		case 't': goto q25;
-		default: return 0;
-	}
-			
-	q25: *index = *index + 1;
-	if (*index >= strlen(string)) return 0;
-	switch (string[*index]){
-		case ' ': goto q43;
-		default: return 0;
-	}
-		
 	q105: *index = *index + 1;
 	if (*index >= strlen(string)) return 0;
 	switch (string[*index]){
 		case 'r': goto q65;
-		default: return 0;
-	}
-			
-	q65: *index = *index + 1;
-	if (*index >= strlen(string)) return 0;
-	switch (string[*index]){
-		case 'o': goto q67;
-		case 'i': goto q94;
-		default: return 0;
-	}
-			
-	q67: *index = *index + 1;
-	if (*index >= strlen(string)) return 0;
-	switch (string[*index]){
-		case 'g': goto q68;
-		default: return 0;
-	}
-			
-	q68: *index = *index + 1;
-	if (*index >= strlen(string)) return 0;
-	switch (string[*index]){
-		case 'r': goto q69;
-		default: return 0;
-	}
-			
-	q69: *index = *index + 1;
-	if (*index >= strlen(string)) return 0;
-	switch (string[*index]){
-		case 'a': goto q70;
-		default: return 0;
-	}
-			
-	q70: *index = *index + 1;
-	if (*index >= strlen(string)) return 0;
-	switch (string[*index]){
-		case 'm': goto q71;
-		default: return 0;
-	}
-			
-	q71: *index = *index + 1;
-	if (*index >= strlen(string)) return 0;
-	switch (string[*index]){
-		case ' ': goto q72;
 		default: return 0;
 	}
 			
@@ -597,7 +434,7 @@ q3: *index = *index + 1;
 	q22: *index = *index + 1;
 	if (*index >= strlen(string)) return 0;
 	switch (string[*index]){
-		case 'a': case '1': case '3': case '4': case '5': case '2': case '6': case '7': case '8': case '9': goto q22;
+		case '0': case '1': case '3': case '4': case '5': case '2': case '6': case '7': case '8': case '9': goto q22;
 		case ' ': goto q44;
 		default: return 0;
 	}
@@ -632,6 +469,214 @@ q3: *index = *index + 1;
 			return 0;
 		}
 		
+	q102: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case '0': case '1': case '3': case '4': case '5': case '2': case '6': case '7': case '8': case '9': goto q102;
+		case ' ': goto q103;
+		default: return 0;
+	}
+	
+	q34: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case 'r': goto q35;
+		default: return 0;
+	}
+	
+	q35: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case 'o': goto q36;
+		default: return 0;
+	}
+	
+	q36: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case 'c': goto q37;
+		case 'g': goto q38;
+		default: return 0;
+	}
+	
+	q37: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case ' ': goto q40;
+		default: return 0;
+	}
+	
+	q38: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case 'r': goto q39;
+		default: return 0;
+	}
+	
+	q39: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case ' ': goto q41;
+		default: return 0;
+	}
+	
+	q42: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case 'e': goto q43;
+		default: return 0;
+	}
+	
+	q43: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case ' ': goto q44;
+		case 'n': goto q45;
+		default: return 0;
+	}
+	
+	q45: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case 'a': goto q46;
+		default: return 0;
+	}
+	
+	q46: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case 'o': goto q47;
+		default: return 0;
+	}
+	
+	q47: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case ' ': goto q48;
+		default: return 0;
+	}
+	
+	q49: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case 'o': goto q50;
+		default: return 0;
+	}
+	
+	q50: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case 'o': goto q51;
+		default: return 0;
+	}
+	
+	q51: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case 'l': goto q52;
+		default: return 0;
+	}
+	
+	q52: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case ' ': goto q53;
+		default: return 0;
+	}
+	
+	q54: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case 'n': goto q55;
+		default: return 0;
+	}
+	
+	q55: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case 't': goto q56;
+		default: return 0;
+	}
+	
+	q56: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case ' ': goto q57;
+		default: return 0;
+	}
+	
+	q58: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case 'n': goto q59;
+		case 's': goto q64;
+		default: return 0;
+	}
+	
+	q59: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case 't': goto q60;
+		default: return 0;
+	}
+	
+	q60: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case 'a': goto q61;
+		default: return 0;
+	}
+	
+	q61: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case 'o': goto q62;
+		default: return 0;
+	}
+	
+	q64: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case 'c': goto q65;
+		default: return 0;
+	}
+	
+	q65: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case 'r': goto q66;
+		default: return 0;
+	}
+	
+	q66: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case 'e': goto q67;
+		default: return 0;
+	}
+	
+	q67: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case 'v': goto q68;
+		default: return 0;
+	}
+	
+	q68: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case 'a': goto q69;
+		default: return 0;
+	}
+	
+	q69: *index = *index + 1;
+	if (*index >= strlen(string)) return 0;
+	switch (string[*index]){
+		case ' ': goto q70;
+		default: return 0;
+	}
+
+	
 	/* ERRO LÉXICO */
 	return 0;
 
@@ -677,15 +722,10 @@ q3: *index = *index + 1;
 	q93: return 19;
 	/* NUM */
 	q44: return 20;
-
 	/* PROGRAM */
 	q72: return 21;
 	/* PRINT */
 	q97: return 22;
-	/* IF */
-	q64: return 23;
-	/* INT */
-	q43: return 24;
 	/* ELSE */
 	q81: return 25;
 	/* VOID */
@@ -700,6 +740,24 @@ q3: *index = *index + 1;
 	q86: return 30;
 	/* DO */
 	q100: return 31;
+	/* [0-9] */
+	q103: return 32;
+	/* proc */
+	q40: return 33;
+	/* progr */
+	q41: return 34;
+	/* se */
+	q44: return 35;
+	/* senao */
+	q45: return 36;
+	/* bool */
+	q53: return 37;
+	/* int */
+	q57: return 38;
+	/* entao */
+	q63: return 39;
+	/* escreva */
+	q64: return 39;
 }
 
 int main(int argc, const char* argv[])
@@ -727,7 +785,6 @@ int main(int argc, const char* argv[])
 		"NUM",
 		"PROGRAM",
 		"PRINT",
-		"IF",
 		"INT",
 		"ELSE",
 		"VOID",
@@ -735,7 +792,15 @@ int main(int argc, const char* argv[])
 		"FALSE",
 		"BOOL",
 		"WHILE",
-		"DO"};
+		"DO",
+		"0", "1", "2", "3", "4", "5", "6", "7", "8", "9",
+		"proc",
+		"progr",
+		"se",
+		"senao",
+		"bool",
+		"entao",
+		"escreva"};
 
 	char argumento[] = "+ - / * <> >= < <= > == = ( ) , ; { } program print if int else void true false bool while do 3455 /* gfivghjwun 5483jgnp34g */ ";
 	int index;
